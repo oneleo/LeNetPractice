@@ -43,7 +43,7 @@ func main() {
 	// 解答 4、輸出 train-labels.idx1-ubyte 檔案中前十個 labels 的平均，精確度取至小數點以下兩位，採無條件捨去。
 	// 並將解答寫入至「4. Labels 1 - 10 average.txt」文字檔內。
 	lbls, _ := mymnist.ReadMnistLabels(dstDir + "\\train-labels.idx1-ubyte")
-	mymnist.WriteLblsAvgToTxt(dstDir+"\\4. Labels 1 - 10 average.txt", lbls[0:10])
+	_ = mymnist.WriteLblsAvgToTxt(dstDir+"\\4. Labels 1 - 10 average.txt", lbls[0:10])
 
 	// 因 mymnist.ImgAddZero 輸出為單一元素，故先建立只有單一元素的 slice。
 	imgAddZero := make([]image.Gray, 1)
