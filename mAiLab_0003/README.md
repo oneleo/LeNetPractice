@@ -43,7 +43,7 @@ $ exec /bin/bash
 ```
 
 #### （2）會將處理後的答案，儲存至 answer 目錄內。
-* 若按照上方指令來執行，儲存目錄為 [%USERPROFILE%\work\src\github.com\LeNetPractice\mAiLab_0003\answer](%USERPROFILE%\work\src\github.com\LeNetPractice\mAiLab_0003\answer)。
+* 若按照上方指令來執行，儲存目錄為「%USERPROFILE%\work\src\github.com\LeNetPractice\mAiLab_0003\answer」。
 
 ##### a、解答 1、下載以下四個檔案。
 * 會從 [http://yann.lecun.com/exdb/mnist](http://yann.lecun.com/exdb/mnist) 網站下載 MNIST 四個 .gz 檔至 answer 目錄，並進行解壓縮。
