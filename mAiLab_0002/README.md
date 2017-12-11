@@ -36,7 +36,8 @@ $ exec /bin/bash
 ### 2、執行與結果
 
 ``` bat
-> go run %USERPROFILE%\work\src\github.com\LeNetPractice\mAiLab_0002\example\main.go
+> cd %USERPROFILE%\work\src\github.com\oneleo\LeNetPractice\mAiLab_0002\example
+> go run .\main.go
 ```
 
 	1、產生五個亂數，並將其輸出。
@@ -57,7 +58,7 @@ $ exec /bin/bash
 * 【1.928s】：本次測試總共花費 2.294 秒。
 
 ``` bat
-> cd %USERPROFILE%\work\src\github.com\LeNetPractice\mAiLab_0002\myrandom
+> cd %USERPROFILE%\work\src\github.com\oneleo\LeNetPractice\mAiLab_0002\myrandom
 > go test -bench=Benchmark_MultiRdmFlt64
 ```
 
@@ -75,7 +76,7 @@ $ exec /bin/bash
 * 本次測試總共花費 2.426 秒。
 
 ``` bat
-> cd %USERPROFILE%\work\src\github.com\LeNetPractice\mAiLab_0002\myrandom
+> cd %USERPROFILE%\work\src\github.com\oneleo\LeNetPractice\mAiLab_0002\myrandom
 > go test -bench=Benchmark_RdmFlt64
 ```
 
@@ -93,7 +94,7 @@ $ exec /bin/bash
 * 本次測試總共花費 2.495 秒。
 
 ``` bat
-> cd %USERPROFILE%\work\src\github.com\LeNetPractice\mAiLab_0002\myrandom
+> cd %USERPROFILE%\work\src\github.com\oneleo\LeNetPractice\mAiLab_0002\myrandom
 > go test -bench=Benchmark_MyRdmFlt64
 ```
 
