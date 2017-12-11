@@ -6,7 +6,7 @@ import (
 	"time"
 
 	// 手動截取 Golang math/rand 原始檔中最關鍵產生 float64 亂數的部份，作為自製的亂數產生函數。
-	"github.com/LeNetPractice/mAiLab_0002/rand_fromgo"
+	"github.com/oneleo/LeNetPractice/mAiLab_0002/rand_fromgo"
 )
 
 // region function

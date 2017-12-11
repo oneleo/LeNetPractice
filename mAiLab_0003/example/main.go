@@ -4,9 +4,9 @@ import (
 	"image"
 	"strconv"
 
-	"github.com/LeNetPractice/mAiLab_0003/mygzip"
-	"github.com/LeNetPractice/mAiLab_0003/myhttp"
-	"github.com/LeNetPractice/mAiLab_0003/mymnist"
+	"github.com/oneleo/LeNetPractice/mAiLab_0003/mygzip"
+	"github.com/oneleo/LeNetPractice/mAiLab_0003/myhttp"
+	"github.com/oneleo/LeNetPractice/mAiLab_0003/mymnist"
 )
 
 func main() {

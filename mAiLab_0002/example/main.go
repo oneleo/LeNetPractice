@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/LeNetPractice/mAiLab_0002/myrandom"
+	"github.com/oneleo/LeNetPractice/mAiLab_0002/myrandom"
 )
 
 func main() {
